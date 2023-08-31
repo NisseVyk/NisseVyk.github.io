@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(0, 106, 167);
+    margin: 0;
+    padding-top: 1vw;
+}
+
+header {
+    background-color: rgb(254, 204, 0);
+    color: black;
+    border-radius: 15px;
+    width: 30vw;
+    margin: auto;
+    
+}
+.titel {
+    padding: 1vw;
+    margin: auto;
+    text-align: center;
+}
+
+header:hover {
+    color: white;
+}
+
+#putin {
+    width: 50vw;
+    margin: auto;
+    display: block;
+    border-radius: 15px;
+}
+main {
+    padding-top: 1vw;
+}
