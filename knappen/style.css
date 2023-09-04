@@ -1,0 +1,20 @@
+body {
+    background-color: gray;
+    margin: 0;
+}
+
+.knapp {
+    background-color: white;
+    width: 10vw;
+    margin: 5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 1vw;
+    border-radius: 15px;
+}
+
+button {
+    width: 2vw;
+    margin-left: 2vw;
+}
+
