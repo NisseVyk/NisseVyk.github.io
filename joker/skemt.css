@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(80, 80, 80);
+}
+img {
+    height: 200px;
+    border-radius: 15px;
+}
+h2 {
+    color: white;
+}
+p {
+    color: white;
+}
