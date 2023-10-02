@@ -1,7 +1,7 @@
 //Funktion för att toggla synligheten av dropdownmenyn, och för att transformera meny-knappen
 function show(x){
     x.classList.toggle("toggle");
-    document.getElementById("mydropdown").classList.toggle("show")
+    document.getElementById("mymenu").classList.toggle("show")
 }
 function show_uppgifter(x){
     x.classList.toggle("toggle");
