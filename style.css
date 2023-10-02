@@ -32,27 +32,7 @@
     transform: translate(0, -11px) rotate(-135deg);
 }
 
-
-/* Meny */
-#uppgifter_button {
-    z-index: 2;
-    cursor: pointer;
-    margin: 0;
-}
-
-#uppgifter_button:hover {
-    background-color: rgb(200, 200, 200);
-}
-.under_uppgifter {
-    color: black;
-    text-decoration: none;
-    display: none;
-}
-.uppgifter_shown {
-    display: block;
-}
-
-
+/* Kod för meny */
 .menu {
     position: absolute;
     display: block;
@@ -63,32 +43,39 @@
     left: -25vw;
     transition: 0.3s;
     margin-left: 0.4vw;
-
 }
-
+.show { /* Visar menyn */
+    left: 0;
+}
+/* Kategorierna i menyn */
 .titel {
     display: block;
     color: black;
     text-decoration: none;
     padding: 11px 16px;
     border-top: solid black;
+    cursor: pointer;
+    margin: 0;
 }
 .titel:last-child {
     border-bottom: solid black;
 }
-.dropdown a:hover {
+.titel:hover, #uppgifter_dropdown:hover {
     background-color: rgb(200, 200, 200);
 }
-.show {
-    left: 0;
-}
 
+/* Text under uppgifter-knappen */
+.under_uppgifter {
+    color: black;
+    text-decoration: none;
+    display: none;
+}
+.uppgifter_shown { /* Visar uppgifter-dropdownen */
+    display: block;
+}
 #uppgifter_dropdown {
     display: block;
      color: black;
     text-decoration: none;
     padding: 11px 16px;
-}
-#uppgifter_dropdown:hover {
-    background-color: rgb(200, 200, 200);
 }
