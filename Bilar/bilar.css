@@ -1,0 +1,19 @@
+.listabilar_div {
+    display: flex;
+}
+.bil_div_element {
+    background-color: brown;
+    color: rgb(1, 255, 14);
+    padding: 1vw;
+    padding-top: 0.01vw;
+    width: 7vw;
+    border-radius: 5px;
+    margin: 0.2vw;
+    margin-top: 0.4vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.bil_del_button{
+    background-color: yellow;
+}
