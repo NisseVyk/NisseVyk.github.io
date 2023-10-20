@@ -2,7 +2,6 @@ const antal_vinster = document.getElementById("antalvister")
 const svar = document.getElementById("svar_div")
 
 const vinster = ["8kg rent colombianskt kokain", "Två barnarbetare från Shanghai", "100 tusen kronor i omärkta sedlar", "En Iphone 3g", "Tre stolar från Ikea", "Kronisk fettma", "Aids", "15 gram närodlad cannabis", "En halväten smörgås", "B̴̨̦̪͔̖͌̑́̿͆̓͌̔̐́͝o̵̳͔̦̳͕̫̩̾̽̏̾̑͐̇͒̿́̀̐͝r̶̼̪̲͕͓̈́͐̓͛ͅd̶͍̹̺͇̳̬̹̗̩̄ͅ", "Fler röster i ditt huvud" ]
-vinster.length
 
 function buttonClick(e){
 
