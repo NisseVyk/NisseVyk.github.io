@@ -95,7 +95,7 @@ aside {
 
 /* Main */
 
-body {
+.startsida {
     margin: 0;
     /* Backgrunds-bild */
     background-image: url(background.jpg);
@@ -104,6 +104,16 @@ body {
     background-repeat: no-repeat;
     padding-bottom: 10vw;
     background-color: black;
+}
+.kontakt {
+    margin: 0;
+    /* Backgrunds-bild */
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 10vw;
+    background-color: black;
+
 }
 main {
     display: flex;
