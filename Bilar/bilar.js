@@ -99,3 +99,6 @@ let deleteBil = (e) => {
 }
 
 window.addEventListener("click", deleteBil)
+
+
+
